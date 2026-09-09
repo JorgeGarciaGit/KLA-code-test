@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IJkQclVE8dk=",
+  "success": true,
+  "projectFilePath": "/Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Api/NumberToWord.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/user/.nuget/packages/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "/Users/user/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}
