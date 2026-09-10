@@ -67,9 +67,9 @@ The following software is required to build and run the solution.
 
 ### .NET
 
-- [ ] Install the .NET 10 SDK.
+ Install the .NET 10 SDK.
 
-- [ ] Verify the installation:
+ Verify the installation:
 ```
 dotnet --version
 ```
@@ -77,9 +77,9 @@ The returned version should be compatible with .NET 10.
 
 ### Node.js
 
-- [ ] Install Node.js and npm.
+ Install Node.js and npm.
 
-- [ ] Verify the installation:
+ Verify the installation:
 ```
 node --version
 npm --version
@@ -91,7 +91,7 @@ src/NumberToWord.Client/package.json
 ## Getting Started
 ### 1. Clone the repository
 
-- [ ] Clone the repository and navigate to the project directory:
+ Clone the repository and navigate to the project directory:
 ```
 git clone <repository-url>
 cd <repository-directory>
@@ -100,7 +100,7 @@ cd <repository-directory>
 
 The React client uses the VITE_API_BASE_URL environment variable to determine the API base URL.
 
-- [ ] Create or update:
+ Create or update:
 ```
 src/NumberToWord.Client/.env.development
 ```
@@ -112,7 +112,7 @@ The port must match the URL configured by the ASP.NET Core launch settings.
 
 ### 3. Start the API
 
-- [ ] From the solution root:
+ From the solution root:
 ```
 dotnet run --project src/NumberToWord.Api
 ```
@@ -132,11 +132,11 @@ Open a second terminal:
 ```
 cd src/NumberToWord.Client
 ```
-- [ ] Install the frontend dependencies:
+ Install the frontend dependencies:
 ```
 npm install
 ```
-- [ ] Start the development server:
+ Start the development server:
 ```
 npm run dev
 ```
@@ -152,7 +152,7 @@ From the solution root:
 ```
 dotnet test
 ```
-- [ ] This runs the automated test suite for the solution.
+ This runs the automated test suite for the solution.
 
 The tests include:
 
