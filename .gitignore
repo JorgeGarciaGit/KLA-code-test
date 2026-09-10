@@ -1,0 +1,23 @@
+cat > .gitignore <<'EOF'
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# OS files
+.DS_Store
+EOF
