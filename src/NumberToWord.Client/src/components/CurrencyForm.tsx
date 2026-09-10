@@ -39,12 +39,17 @@ export function CurrencyForm({
 
           <input
             id="dollars"
-            type="number"
-            min="0"
-            max="999999999"
-            step="1"
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
             value={dollars}
-            onChange={(event) => onDollarsChange(event.target.value)}
+            onChange={(event) => {
+              const value = event.target.value;
+
+              if (/^\d{0,9}$/.test(value)) {
+                onDollarsChange(value);
+              }
+            }}
             placeholder="999999999"
           />
         </div>
@@ -56,21 +61,23 @@ export function CurrencyForm({
 
           <input
             id="cents"
-            type="number"
-            min="0"
-            max="99"
-            step="1"
+            type="text"
+            inputMode="numeric"
+            pattern="[0-9]*"
             value={cents}
-            onChange={(event) => onCentsChange(event.target.value)}
+            onChange={(event) => {
+              const value = event.target.value;
+
+              if (/^\d{0,2}$/.test(value)) {
+                onCentsChange(value);
+              }
+            }}
             placeholder="99"
           />
         </div>
       </div>
 
-      <LanguageSelector
-        value={language}
-        onChange={onLanguageChange}
-      />
+      <LanguageSelector value={language} onChange={onLanguageChange} />
 
       <button
         type="button"

@@ -9,3 +9,4 @@
 /Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Core/obj/Debug/net10.0/refint/NumberToWord.Core.dll
 /Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Core/obj/Debug/net10.0/NumberToWord.Core.pdb
 /Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Core/obj/Debug/net10.0/ref/NumberToWord.Core.dll
+/Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Core/obj/Debug/net10.0/NumberToWord.Core.sourcelink.json

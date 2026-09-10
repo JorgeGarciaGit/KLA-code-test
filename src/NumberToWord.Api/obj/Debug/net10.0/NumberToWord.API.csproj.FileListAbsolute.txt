@@ -68,3 +68,4 @@
 /Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Api/obj/Debug/net10.0/NumberToWord.API.pdb
 /Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Api/obj/Debug/net10.0/NumberToWord.API.genruntimeconfig.cache
 /Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Api/obj/Debug/net10.0/ref/NumberToWord.API.dll
+/Users/user/Documents/1. engineer/2. training/DotNet/KLA code test/src/NumberToWord.Api/obj/Debug/net10.0/NumberToWord.API.sourcelink.json

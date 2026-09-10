@@ -5,8 +5,10 @@ interface LanguageSelectorProps {
   onChange: (language: Language) => void;
 }
 
-const languages: Language[] = ["en", "de"];
-
+const languages: { value: Language; label: string }[] = [
+  { value: "en", label: "English" },
+  { value: "de", label: "Deutsch" },
+];
 export function LanguageSelector({
   value,
   onChange,
@@ -20,9 +22,9 @@ export function LanguageSelector({
         value={value}
         onChange={(event) => onChange(event.target.value as Language)}
       >
-        {languages.map((language) => (
-          <option key={language} value={language}>
-            {language}
+        {languages.map(({ value, label }) => (
+          <option key={value} value={value}>
+            {label}
           </option>
         ))}
       </select>
